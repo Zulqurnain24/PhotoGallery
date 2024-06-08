@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "91A0F4D9-022C-4E02-8275-DE264D67382E"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "09F1A7C4-22D3-48F9-9A3D-CA786446EF09"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PhotoGallery/ViewModel/PhotoGallery/PhotoGalleryViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "fetchPhotosForCurrentPage(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "345DFCDD-35C0-4E00-AA2E-F962D08F4299"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PhotoGallery/Repository/PhotoRepository.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "savePhotosToCache(_:forKey:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "345DFCDD-35C0-4E00-AA2E-F962D08F4299 - d8c62e80393ec9a0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PhotoGallery.PhotoRepository.prefetchPhotos(startingFrom: Swift.Int, limit: Swift.Int) async throws -&gt; ()"
+                  moduleName = "PhotoGallery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohammadzulqurnain/Desktop/Client/Verimi/PhotoGallery/PhotoGallery/PhotoGallery/Repository/PhotoRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  uuid = "345DFCDD-35C0-4E00-AA2E-F962D08F4299 - 9f94bc39b3cf10b5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for PhotoGallery.PhotoRepository.prefetchPhotos(startingFrom: Swift.Int, limit: Swift.Int) async throws -&gt; ()"
+                  moduleName = "PhotoGallery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohammadzulqurnain/Desktop/Client/Verimi/PhotoGallery/PhotoGallery/PhotoGallery/Repository/PhotoRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "345DFCDD-35C0-4E00-AA2E-F962D08F4299 - 4a86dccd591a7bf8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PhotoGallery.PhotoRepository.savePhotosToCache(_: Swift.Array&lt;PhotoGallery.Photo&gt;, forKey: Swift.String) -&gt; ()"
+                  moduleName = "PhotoGallery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohammadzulqurnain/Desktop/Client/Verimi/PhotoGallery/PhotoGallery/PhotoGallery/Repository/PhotoRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "76">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "26B583CF-E7BF-4AD1-9042-7C6856F4802F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PhotoGallery/Repository/PhotoRepository.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "getPhotos(page:limit:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "26B583CF-E7BF-4AD1-9042-7C6856F4802F - 244620e26e228e67"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for PhotoGallery.PhotoRepository.getPhotos(page: Swift.Int, limit: Swift.Int) async throws -&gt; Swift.Array&lt;PhotoGallery.Photo&gt;"
+                  moduleName = "PhotoGallery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohammadzulqurnain/Desktop/Client/Verimi/PhotoGallery/PhotoGallery/PhotoGallery/Repository/PhotoRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "1376">
+               </Location>
+               <Location
+                  uuid = "26B583CF-E7BF-4AD1-9042-7C6856F4802F - ef00482ef84cfee8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for PhotoGallery.PhotoRepository.getPhotos(page: Swift.Int, limit: Swift.Int) async throws -&gt; Swift.Array&lt;PhotoGallery.Photo&gt;"
+                  moduleName = "PhotoGallery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohammadzulqurnain/Desktop/Client/Verimi/PhotoGallery/PhotoGallery/PhotoGallery/Repository/PhotoRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "26B583CF-E7BF-4AD1-9042-7C6856F4802F - af7cd4087056fb48"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for PhotoGallery.PhotoRepository.getPhotos(page: Swift.Int, limit: Swift.Int) async throws -&gt; Swift.Array&lt;PhotoGallery.Photo&gt;"
+                  moduleName = "PhotoGallery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohammadzulqurnain/Desktop/Client/Verimi/PhotoGallery/PhotoGallery/PhotoGallery/Repository/PhotoRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "68">
+               </Location>
+               <Location
+                  uuid = "26B583CF-E7BF-4AD1-9042-7C6856F4802F - af7cd4087056fa61"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for PhotoGallery.PhotoRepository.getPhotos(page: Swift.Int, limit: Swift.Int) async throws -&gt; Swift.Array&lt;PhotoGallery.Photo&gt;"
+                  moduleName = "PhotoGallery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohammadzulqurnain/Desktop/Client/Verimi/PhotoGallery/PhotoGallery/PhotoGallery/Repository/PhotoRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  uuid = "26B583CF-E7BF-4AD1-9042-7C6856F4802F - 6b8e4e457b90dd75"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for PhotoGallery.PhotoRepository.getPhotos(page: Swift.Int, limit: Swift.Int) async throws -&gt; Swift.Array&lt;PhotoGallery.Photo&gt;"
+                  moduleName = "PhotoGallery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohammadzulqurnain/Desktop/Client/Verimi/PhotoGallery/PhotoGallery/PhotoGallery/Repository/PhotoRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "64">
+               </Location>
+               <Location
+                  uuid = "26B583CF-E7BF-4AD1-9042-7C6856F4802F - 6b8e4e457b90dc5c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for PhotoGallery.PhotoRepository.getPhotos(page: Swift.Int, limit: Swift.Int) async throws -&gt; Swift.Array&lt;PhotoGallery.Photo&gt;"
+                  moduleName = "PhotoGallery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohammadzulqurnain/Desktop/Client/Verimi/PhotoGallery/PhotoGallery/PhotoGallery/Repository/PhotoRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "26B583CF-E7BF-4AD1-9042-7C6856F4802F - 6b8e4e457b90dc5c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for PhotoGallery.PhotoRepository.getPhotos(page: Swift.Int, limit: Swift.Int) async throws -&gt; Swift.Array&lt;PhotoGallery.Photo&gt;"
+                  moduleName = "PhotoGallery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohammadzulqurnain/Desktop/Client/Verimi/PhotoGallery/PhotoGallery/PhotoGallery/Repository/PhotoRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "96">
+               </Location>
+               <Location
+                  uuid = "26B583CF-E7BF-4AD1-9042-7C6856F4802F - 244620e26e228e88"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for PhotoGallery.PhotoRepository.getPhotos(page: Swift.Int, limit: Swift.Int) async throws -&gt; Swift.Array&lt;PhotoGallery.Photo&gt;"
+                  moduleName = "PhotoGallery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohammadzulqurnain/Desktop/Client/Verimi/PhotoGallery/PhotoGallery/PhotoGallery/Repository/PhotoRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "1736">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8880D1D4-8D89-44A0-AFD4-EF97A8E46399"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PhotoGallery/Repository/PhotoRepository.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "getPhotos(page:limit:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8880D1D4-8D89-44A0-AFD4-EF97A8E46399 - 244620e26e228e04"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for PhotoGallery.PhotoRepository.getPhotos(page: Swift.Int, limit: Swift.Int) async throws -&gt; Swift.Array&lt;PhotoGallery.Photo&gt;"
+                  moduleName = "PhotoGallery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohammadzulqurnain/Desktop/Client/Verimi/PhotoGallery/PhotoGallery/PhotoGallery/Repository/PhotoRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "1832">
+               </Location>
+               <Location
+                  uuid = "8880D1D4-8D89-44A0-AFD4-EF97A8E46399 - af7cd4087056fa02"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for PhotoGallery.PhotoRepository.getPhotos(page: Swift.Int, limit: Swift.Int) async throws -&gt; Swift.Array&lt;PhotoGallery.Photo&gt;"
+                  moduleName = "PhotoGallery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohammadzulqurnain/Desktop/Client/Verimi/PhotoGallery/PhotoGallery/PhotoGallery/Repository/PhotoRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "236">
+               </Location>
+               <Location
+                  uuid = "8880D1D4-8D89-44A0-AFD4-EF97A8E46399 - af7cd4087056fa02"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for PhotoGallery.PhotoRepository.getPhotos(page: Swift.Int, limit: Swift.Int) async throws -&gt; Swift.Array&lt;PhotoGallery.Photo&gt;"
+                  moduleName = "PhotoGallery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohammadzulqurnain/Desktop/Client/Verimi/PhotoGallery/PhotoGallery/PhotoGallery/Repository/PhotoRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "132">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
