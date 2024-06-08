@@ -13,12 +13,13 @@ This repository demonstrates the implementation of the MVVM (Model-View-ViewMode
 - **ViewModel**: Acts as a bridge between the Model and the View. It retrieves data from the Model, processes it if necessary, and provides it to the View. It also handles user input, transforming it into actions that the Model will understand.
 
 **MVVM Diagram:**
++--------------------+        +--------------------+        +--------------------+
+|       View         |  <-->  |     ViewModel      |  <-->  |       Model        |
+| (SwiftUI/UIView)   |        | (ObservableObject) |        | (Data, Business    |
+|                    |        |                    |        |  Logic, Network)   |
++--------------------+        +--------------------+        +--------------------+
 
-+--------------------+ +--------------------+ +--------------------+
-| View | <--> | ViewModel | <--> | Model |
-| (SwiftUI/UIView) | | (ObservableObject) | | (Data, Business |
-| | | | | Logic, Network) |
-+--------------------+ +--------------------+ +--------------------+
+
 
 ### Repository Pattern
 
@@ -30,34 +31,36 @@ The **Repository Pattern** is used to abstract the data layer, providing a clean
 - **Data Sources**: Different sources of data, such as local databases, network services, or caches. The Repository interacts with these sources to fetch and store data.
 
 **Repository Pattern Diagram:**
++------------------+
+|   ViewModel      |
++------------------+
+        |
+        v
++------------------+
+|   Repository     |
++------------------+
+   /       \
+  v         v
+Local     Remote
+Data       Data
+Source    Source
 
-+------------------+
-| ViewModel |
-+------------------+
-|
-v
-+------------------+
-| Repository |
-+------------------+
-/
-v v
-Local Remote
-Data Data
-Source Source
 
 ### MVVM with Repository Pattern Diagram
 
 Combining the MVVM architecture with the Repository Pattern, the structure looks like this:
 
-+--------------------+ +--------------------+ +--------------------+
-| View | <--> | ViewModel | <--> | Repository |
-| (SwiftUI/UIView) | | (ObservableObject) | | |
-| | | | | |
-+--------------------+ +--------------------+ +---------+----------+
-/
-/
-+---------+ +---------+
-| Local | | Remote |
-| Data | | Data |
-| Source | | Source |
-+---------+ +---------+
++--------------------+        +--------------------+        +--------------------+
+|       View         |  <-->  |     ViewModel      |  <-->  |     Repository     |
+| (SwiftUI/UIView)   |        | (ObservableObject) |        |                    |
+|                    |        |                    |        |                    |
++--------------------+        +--------------------+        +---------+----------+
+                                                                   / \
+                                                                  /   \
+                                                        +---------+   +---------+
+                                                        | Local   |   | Remote  |
+                                                        | Data    |   | Data    |
+                                                        | Source  |   | Source  |
+                                                        +---------+   +---------+
+
+
