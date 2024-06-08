@@ -13,11 +13,7 @@ This repository demonstrates the implementation of the MVVM (Model-View-ViewMode
 - **ViewModel**: Acts as a bridge between the Model and the View. It retrieves data from the Model, processes it if necessary, and provides it to the View. It also handles user input, transforming it into actions that the Model will understand.
 
 **MVVM Diagram:**
-+--------------------+        +--------------------+        +--------------------+
-|       View         |  <-->  |     ViewModel      |  <-->  |       Model        |
-| (SwiftUI/UIView)   |        | (ObservableObject) |        | (Data, Business    |
-|                    |        |                    |        |  Logic, Network)   |
-+--------------------+        +--------------------+        +--------------------+
+![image](https://github.com/Zulqurnain24/PhotoGallery/assets/6280238/ee5dbb2d-1a06-408b-9327-c5322251015c)
 
 
 
@@ -31,36 +27,16 @@ The **Repository Pattern** is used to abstract the data layer, providing a clean
 - **Data Sources**: Different sources of data, such as local databases, network services, or caches. The Repository interacts with these sources to fetch and store data.
 
 **Repository Pattern Diagram:**
-+------------------+
-|   ViewModel      |
-+------------------+
-        |
-        v
-+------------------+
-|   Repository     |
-+------------------+
-   /       \
-  v         v
-Local     Remote
-Data       Data
-Source    Source
+
+![image](https://github.com/Zulqurnain24/PhotoGallery/assets/6280238/8d5c5813-0af7-4897-9918-d28d73232ee4)
+
 
 
 ### MVVM with Repository Pattern Diagram
 
 Combining the MVVM architecture with the Repository Pattern, the structure looks like this:
 
-+--------------------+        +--------------------+        +--------------------+
-|       View         |  <-->  |     ViewModel      |  <-->  |     Repository     |
-| (SwiftUI/UIView)   |        | (ObservableObject) |        |                    |
-|                    |        |                    |        |                    |
-+--------------------+        +--------------------+        +---------+----------+
-                                                                   / \
-                                                                  /   \
-                                                        +---------+   +---------+
-                                                        | Local   |   | Remote  |
-                                                        | Data    |   | Data    |
-                                                        | Source  |   | Source  |
-                                                        +---------+   +---------+
+![image](https://github.com/Zulqurnain24/PhotoGallery/assets/6280238/666c523a-7ca7-4e67-9b24-1bcf712ea912)
+
 
 
