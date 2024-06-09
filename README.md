@@ -16,9 +16,9 @@ It is a simple networking app making use of the repository pattern with MVVM arc
 
 (1)Infinite scroll
 
-(2)Favouriting mechism
+(2)Favouriting mechanism
 
-(3)Prefetching
+(3)Prefetching content
 
 (4)Offline mode
 
@@ -28,7 +28,7 @@ It is a simple networking app making use of the repository pattern with MVVM arc
 
 (7)UI test 
 
-(8)Image caching
+(8)Indegenuous Image caching
 
 # MVVM Architecture with Repository Pattern in iOS
 
