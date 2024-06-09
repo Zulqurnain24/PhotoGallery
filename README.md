@@ -6,11 +6,11 @@ It is a simple networking app making use of the repository pattern with MVVM arc
 
 <img width="200" alt="Screenshot 2024-06-09 at 3 06 43 PM" src="https://github.com/Zulqurnain24/PhotoGallery/assets/6280238/63283b7f-f9e5-4403-b6c5-0c71c2b6e4fa">
 
-<img width="200" alt="Screenshot 2024-06-09 at 3 06 54 PM" src="https://github.com/Zulqurnain24/PhotoGallery/assets/6280238/edc987f0-bcd1-426a-aec6-cdb5f8fcf953">
+<img width="204" alt="Screenshot 2024-06-09 at 3 06 54 PM" src="https://github.com/Zulqurnain24/PhotoGallery/assets/6280238/edc987f0-bcd1-426a-aec6-cdb5f8fcf953">
 
-<img width="200" alt="Screenshot 2024-06-09 at 3 07 03 PM" src="https://github.com/Zulqurnain24/PhotoGallery/assets/6280238/dd1b0ee0-9484-449d-88ac-efaa20696aac">
+<img width="209" alt="Screenshot 2024-06-09 at 3 07 03 PM" src="https://github.com/Zulqurnain24/PhotoGallery/assets/6280238/dd1b0ee0-9484-449d-88ac-efaa20696aac">
 
-<img width="200" alt="Screenshot 2024-06-09 at 3 07 12 PM" src="https://github.com/Zulqurnain24/PhotoGallery/assets/6280238/1d76101f-56de-4319-8778-81cc81496160">
+<img width="205" alt="Screenshot 2024-06-09 at 3 07 12 PM" src="https://github.com/Zulqurnain24/PhotoGallery/assets/6280238/1d76101f-56de-4319-8778-81cc81496160">
 
 # Photo Gallery App features:
 
